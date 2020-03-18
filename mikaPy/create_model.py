@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 from __future__ import absolute_import, division, print_function, unicode_literals
+!pip install -q git+https://github.com/tensorflow/examples.git
 import tensorflow as tf
 from tensorflow_examples.models.pix2pix import pix2pix
 
